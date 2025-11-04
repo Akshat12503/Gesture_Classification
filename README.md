@@ -6,14 +6,20 @@ This project is a real-time gesture classification system. It uses a custom Visi
 ## **Features**
 
 **Real-Time Classification:** Classifies hand gestures live via your webcam.
+
 **7 Gesture Classes:** Trained to recognize **Fist, Palm, Peace, RockOn, ThumbsUp, ThumbsDown, and None (background)**.
+
 **Custom ViT Model:** The Vision Transformer (ViT) is implemented from scratch, including manual patch embedding and multi-head attention, as per the assignment requirements.
 
 ## **Model Architecture**
 The model is a "Mini-ViT" built with the following hyperparameters (Seed: 91):
+
 hidden_dim: 160 
+
 num_heads: 5 
+
 patch_size: 14
+
 epochs: 11 
 
 ## **Dataset**
@@ -22,13 +28,21 @@ There is no dataset link for this project (because I've used custome dataset, im
 
 ### **Install Dependencies: Create a requirements.txt file with the following content:**
 torch
+
 torchvision
+
 opencv-python-headless
+
 numpy
+
 matplotlib
+
 seaborn
+
 scikit-learn
+
 tqdm
+
 pandas
 
 Then, install them:
